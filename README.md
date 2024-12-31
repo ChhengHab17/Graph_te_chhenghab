@@ -21,4 +21,9 @@ BFS Steps:
 4. Repeat the process until the queue is empty.
 ### Result
 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6
+## Traversal in DFS
+The DFS traversal order can vary depending on the adjacency list order (which determines the neighbor visit order). In this case, we observe different DFS orders based on whether we visit 3 or 4 first, and similarly for 5.
+## Traversal in BFS
+The BFS traversal order remains consistent as it explores level by level. However, BFS results may differ if we have different starting points or graph structures.
+
 
